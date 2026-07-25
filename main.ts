@@ -1,5 +1,5 @@
 controller.anyButton.onEvent(ControllerButtonEvent.Pressed, function () {
-    info.changeScoreBy(2)
+    info.changeScoreBy(1)
     effects.confetti.startScreenEffect(1000)
 })
 info.onCountdownEnd(function () {
